@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #333;
-    padding: 1em;
+    padding: 1.5em;
 }
 .logo{
     color: #fff;
@@ -20,9 +20,12 @@ body{
 .nav-links{
     list-style: none;
     display: flex;
+    align-items: center;
+    font-size: 1em;
+    
 }
 .nav-links li{
-    margin:  0 1em;
+    margin:  0 2em;
 }
 .nav-links a{
     color: #fff;
@@ -30,14 +33,42 @@ body{
 }
 .search-bar{
     display: flex;
+    border: none;
+
+
 }
 .search-bar input{
-    padding: 0.5;
+    padding: 0.1em;
     font-size: 1em;
+    
+    
 }
-.search-bar button{
-    padding: 0.5em 1em;
 
-    border: none;
-    cursor:pointer
+.search-bar button{
+    padding: 0.1em;
+font-size: 1em;
+    
+    cursor:pointer;
+    background-color: white;
+    border-top-right-radius: 2px ;
+    border-bottom-right-radius: 2px;
+    
+}
+#search-input::placeholder{
+    color: black;
+    opacity: 1;
+    
+
+}
+#search-button{
+    border-top-right-radius: 8px;
+    
+    border: solid  white;
+    padding: auto;
+}
+#search-input{
+    
+    border-bottom-left-radius: 8px;
+    border:solid white;
+    padding: auto;
 }

@@ -20,15 +20,29 @@
                 <input type="text" id="search-input" placeholder="Find a recipe">
                 <button id="search-button"></i>search</button>
             </div>
+            <div id="result-container" class="result-container"></div>
             <li><a href="login.html">Login</a></li>
             <li><a href="register.html">Register</a></li>
         </ul>
         
+
     </nav>
-    <!--content-->
-    <div class="content">
+    <!--Hero section-->
+    <section class="hero">
+    <div class="hero-content">
         <h1>Welcome to the recipe book</h1>
+        <p>Your journey starts here</p>
+        <a href="#about" id="get-btn" class="btn">Get Started</a>
     </div>
+    </section>
+
     <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <section class="fullscreen-search" id="fullscreensearch">
+        <div class="search-wrapper">
+            <input type="text" placeholder="Type your search...." id="fullscreensearchinput">
+            <button id="closeSearchBtn">&times;</button>
+        </div>
+    </section>
 </body>
 </html>
